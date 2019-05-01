@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 url = "https://www.americanrhetoric.com/top100speechesall.html"
 
 #If there is no such folder, the script will create one automatically
-folder_location = r'E:\webscraping'
+folder_location = r"/Users/diegoponce/Desktop/Scrapytutorial"
 if not os.path.exists(folder_location):os.mkdir(folder_location)
 
 response = requests.get(url)
