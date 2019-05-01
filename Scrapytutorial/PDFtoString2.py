@@ -5,8 +5,8 @@ from pdfminer.pdfpage import PDFPage
 from io import BytesIO
 
 
-def pdf_to_text(path):
-
+def pdf_to_text():
+    path = "JFK - ..." # Whatever the file name is. Doesn't have to be a path.
     manager = PDFResourceManager()
     retstr = BytesIO()
     layout = LAParams(all_texts=True)
