@@ -3,6 +3,8 @@ from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
 
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "Put the file path here" # You won't have to set it each time now
+
 # Instantiates a client
 client = language.LanguageServiceClient()
 
