@@ -18,4 +18,4 @@ for link in soup.select("a[href$='.pdf']"):
     with open(filename, 'wb') as f:
         f.write(requests.get(urljoin(url,link['href'])).content)
 
-PDFtoString2.
+PDFtoString2.pdf_to_text()
