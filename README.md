@@ -1,2 +1,2 @@
 # PDF-Sentiment-
-Program that scrapes websites for PDF an then runs a sentiment analysis on them 
+Program that scrapes websites for PDF's an then runs both a sentiment analysis and a classification algorithm using natural language
