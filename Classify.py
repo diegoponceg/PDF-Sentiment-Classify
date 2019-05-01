@@ -7,7 +7,10 @@ from google.cloud import language
 import numpy
 import six
 
+
 def classify(text, verbose=True):
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "Put the file path here" # You won't have to set it each time now
+    
     """Classify the input text into categories. """
 
     language_client = language.LanguageServiceClient()
