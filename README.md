@@ -10,6 +10,8 @@ Open the TCMFinalProject folder
     this is the one you will be using throughout 
     
 Use the terminal:
+
+create a directory with the file [cd "filepath]
 start with python3 command then drag DownloadPDF
 
 First document to run is the DownloadPDF.py
